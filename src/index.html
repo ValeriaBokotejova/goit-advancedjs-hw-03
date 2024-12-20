@@ -7,13 +7,28 @@
     <link rel="icon" href="./img/favicon.ico" />
     <title>My HW #3</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./main.js" type="module"></script>
   </head>
   <body>
     <div class="container">
       <h1 class="title">Hi there 👋</h1>
       <p class="home-text">Welcome to my homework #3</p>
     </div>
-    <main></main>
-    <script src="./main.js" type="module"></script>
+    <main>
+      <div class="container">
+        <form class="search-form">
+          <input
+            class="search-input"
+            type="text"
+            name="search"
+            placeholder="Search images"
+            required
+          />
+          <button class="search-btn" type="submit">Search</button>
+        </form>
+        <div class="loader"></div>
+        <ul class="gallery"></ul>
+      </div>
+    </main>
   </body>
 </html>
