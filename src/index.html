@@ -16,16 +16,20 @@
     </div>
     <main>
       <div class="container">
-        <form class="search-form">
-          <input
-            class="search-input"
-            type="text"
-            name="search"
-            placeholder="Search images..."
-          />
-          <button class="search-btn" type="submit">Search</button>
-        </form>
-        <span class="loader" style="display: none;"></span>
+        <div class="search-area">
+          <form class="search-form">
+            <input
+              class="search-input"
+              type="text"
+              name="search"
+              placeholder="Search images..."
+            />
+            <button class="search-btn" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="loader-wrap">
+          <span class="loader" style="display: none"></span>
+        </div>
         <ul class="gallery"></ul>
       </div>
     </main>

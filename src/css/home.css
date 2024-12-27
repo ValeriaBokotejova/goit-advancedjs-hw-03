@@ -1,12 +1,12 @@
 .title {
-  margin: 32px 0;
+  margin: 17px 0;
   text-align: center;
   font-size: 2em;
   color: #747bff;
 }
 @media (min-width: 768px) {
   .title {
-    margin: 64px 0;
+    margin: 32px 0;
     font-size: 3em;
   }
 }
